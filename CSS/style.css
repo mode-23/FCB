@@ -51,7 +51,7 @@ body{
     background-color: var(--body-color);
     overflow-x: hidden;
     max-width: 100vw;
-/*     cursor: none; */
+    cursor: none;
 }
 html{
     scroll-behavior: smooth;
@@ -847,7 +847,7 @@ footer .container .homes{
     position: relative;
 }
 }
-/* .cursor{
+.cursor{
     position: fixed;
     width: 30px;
     height: 30px;
@@ -870,7 +870,7 @@ footer .container .homes{
     background: url(../images/fcbayern.svg);
     box-shadow: 0 0 22px rgba(255, 255, 255, 60%);
     filter: invert(0);
-  } */
+  }
 
 @media (max-width: 1200px) {
 .cursor{
