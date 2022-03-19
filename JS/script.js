@@ -136,11 +136,11 @@ btn.addEventListener("click", () => {
   }, 2000);
 });
 
-// let cursor = document.querySelector(".cursor");
-// let cursor2 = document.querySelector(".cursor2");
-// document.addEventListener("mousemove", (e) => {
-//   cursor.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
-// });
+let cursor = document.querySelector(".cursor");
+let cursor2 = document.querySelector(".cursor2");
+document.addEventListener("mousemove", (e) => {
+  cursor.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+});
 
 let piece = document.querySelectorAll(".holder .piece");
 piece.forEach((pie) => {
